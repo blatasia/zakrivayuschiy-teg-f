@@ -1,46 +1,262 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Закрывающий тег</title>
-    <link rel="stylesheet" href="./fonts/fonts.css" />
-    <link rel="stylesheet" href="./styles/variables.css" />
-    <link rel="stylesheet" href="./styles/globals.css" />
-    <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="stylesheet" href="./styles/animations.css" />
-    <link rel="stylesheet" href="./styles/themes.css" />
-    <script src="./scripts/set-theme.js"></script>
-  </head>
-  <body class="page">
-    <header class="header">
-      <nav class="theme-menu header__theme-menu">
-        <!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
-        <ul class="theme-menu__list">
-          <li class="theme-menu__item">
-            <button type="button" data-theme="dark" class="theme-menu__button">
-              Темно
-            </button>
-          </li>
-          <li class="theme-menu__item">
-            <button
-              type="button"
-              data-theme="auto"
-              disabled
-              class="theme-menu__button"
-            >
-              Авто
-            </button>
-          </li>
-          <li class="theme-menu__item">
-            <button type="button" data-theme="light" class="theme-menu__button">
-              Светло
-            </button>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main></main>
-    <script src="./scripts/like.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="light dark" />
+  <title>Закрывающий тег</title>
+  <link rel="icon" href="./images/favicon.ico" sizes="any" />
+  <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" class="favicon-svg" />
+  <link rel="apple-touch-icon" href="./images/favicon.png" />
+  <link rel="stylesheet" href="./fonts/fonts.css" />
+  <link rel="stylesheet" href="./styles/variables.css" />
+  <link rel="stylesheet" href="./styles/globals.css" />
+  <link rel="stylesheet" href="./styles/style.css" />
+  <link rel="stylesheet" href="./styles/animations.css" />
+  <link rel="stylesheet" href="./styles/themes.css" />
+  <script src="./scripts/set-theme.js"></script>
+</head>
+
+<body class="page">
+  <header class="header">
+
+    <h1 class="header__title">&lt/HTML&gt</h1>
+    <h2 class="header__subtitle">закрывающий тег</h2>
+
+    <nav class="theme-menu header__theme-menu">
+      <!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
+      <ul class="theme-menu__list">
+        <li class="theme-menu__item">
+          <button type="button" data-theme="dark" class="theme-menu__button">
+            Темно
+          </button>
+        </li>
+        <li class="theme-menu__item">
+          <button type="button" data-theme="auto" disabled class="theme-menu__button">
+            Авто
+          </button>
+        </li>
+        <li class="theme-menu__item">
+          <button type="button" data-theme="light" class="theme-menu__button">
+            Светло
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main class="main">
+    <section class="main__post">
+      <h3 class="main__post_title">
+        Фритрек и нулевой спринт: Подготовка к работе
+      </h3> 
+
+
+
+    <div class="main__post_image_block">
+      <img src="./svg/image.svg" alt="пиксельный дом на колесах" class="main__post_image" />
+      <h4 class="main__post_watermark">&lt/HTML&gt</h4>
+    </div>
+
+
+    <div class="main__post_text">
+      <p class="main__post_text_paragraph">
+        Это было самое начало пути. На этом этапе важно было проникнуться
+        основами и настроиться на учёбу. И, возможно, подумать, как новые
+        знания могут повлиять на ваше будущее.
+      </p>
+      <p class="main__post_text_paragraph">
+        Место для ваших воспоминаний о начале обучения.
+      </p>
+    </div>
+
+
+      <button class="main__post_button">Like</button>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="main__post">
+      <h3 class="main__post_title">1 спринт: Я — чистый лист</h3>
+      <div class="main__post_watermark">&lt/HTML&gt</div>
+      <img src="./svg/image.svg" alt="пиксельный дом на колесах с фильтром сниженной контрастностью"
+        class="main__post_image main__post_image-low-contrast" />
+      <div class="main__post_text">
+        <p class="main__post_text_paragraph">
+          На первых этапах мы работали со страхами и сомнениями, которые часто
+          испытывают новички. Один из них — страх перед чистым листом. Это,
+          конечно же, намного сложнее, чем боязнь куска бумаги. Часто за этим
+          ощущением скрываются более глубокие вопросы: с чего начать? а вдруг
+          будет слишком сложно? что, если я не справлюсь?
+        </p>
+        <p class="main__post_text_paragraph">
+          Место для ваших воспоминаний о начале обучения.
+        </p>
+      </div>
+      <button class="main__post_button">Like</button>
+    </section>
+
+    <section class="main__post">
+      <h3 class="main__post_title">1 спринт: А если не получится?</h3>
+      <div class="main__post_watermark">&lt/HTML&gt</div>
+      <img src="./svg/image.svg" alt="пиксельный дом на колесах с очень насыщенными цветами"
+        class="main__post_image main__post_image-high-contrast" />
+      <p class="main__post_text">
+        Первый проект — позади! Но это всё ещё самое начало пути. Радость
+        могла быстро померкнуть и смениться ожиданием провала. Или вы,
+        наоборот, могли вдохновиться успехами и поверить в себя.
+      </p>
+      <p class="main__post_text">
+        Место для ваших воспоминаний о начале обучения.
+      </p>
+      <button class="main__post_button">Like</button>
+    </section>
+
+    <section class="main__post">
+      <h3 class="main__post_title">2 спринт: Погоня за идеалом</h3>
+      <div class="main__post_watermark">&lt/HTML&gt</div>
+      <img src="./svg/image.svg" alt="пиксельный дом на колесах со сниженной насыщенностью"
+        class="main__post_image main__post_image-low-saturate" />
+      <p class="main__post_text">
+        На этом этапе вы уже достаточно разбирались в основах вёрстки, чтобы
+        понять, как много ещё впереди. Вы могли попытаться погнаться за
+        идеалом и понять, что он недостижим. А, может, вы вовсе и не
+        подвержены перфекционизму и вместо того, чтобы сделать идеально,
+        старались просто сделать.
+      </p>
+      <p class="main__post_text">
+        Место для ваших воспоминаний об окончании второго спринта.
+      </p>
+      <button class="main__post_button">Like</button>
+    </section>
+
+    <section class="main__post">
+      <h3 class="main__post_title">2 спринт: О тех, кто рядом</h3>
+      <div class="main__post_watermark">&lt/HTML&gt</div>
+      <img src="./svg/image.svg" alt="пиксельный дом на колесах в негативе"
+        class="main__post_image main__post_image-invert" />
+      <p class="main__post_text">
+        Всё это время вы были не одиноки (хотя, возможно, иногда и
+        чувствовали, что одни против целого мира). Вас окружали одногруппники,
+        команда сопровождения и просто близкие люди, которым можно
+        пожаловаться, если очередной макет просто так не поддавался. Осваивать
+        что-то новое легче, когда рядом есть единомышленники, не правда ли?
+      </p>
+      <p class="main__post_text">
+        Место для ваших воспоминаний об окончании второго спринта.
+      </p>
+      <button class="main__post_button">Like</button>
+    </section>
+
+    <section class="main__post">
+      <h3 class="main__post_title">3 спринт: Обходные стратегии</h3>
+      <div class="main__post_watermark">&lt/HTML&gt</div>
+      <img src="./svg/image.svg" alt="пиксельный дом на колесах с фильтром сепия"
+        class="main__post_image main__post_image-sepia" />
+      <p class="main__post_text">
+        На этом курсе вы постоянно решали разные задачи. В какой-то момент вам могло показаться, что решения просто
+        иссякли. Значит, пришло время посмотреть на задачу под другим углом.
+      </p>
+      <p class="main__post_text">
+        Место для ваших воспоминаний о начале третьего спринта.
+      </p>
+      <button class="main__post_button">Like</button>
+    </section>
+
+    <section class="main__post">
+      <h3 class="main__post_title">3 спринт: Когда опускаются руки</h3>
+      <div><p class="main__post_watermark">&lt/HTML&gt</p>
+      <img src="./svg/image.svg" alt="пиксельный дом на колесах с фильтром размытие"/></div>
+        class="main__post_image main__post_image-blur" />
+      <p class="main__post_text">
+        Во время учёбы часто возникает чувство, когда не знаешь, за что хвататься. Вроде и проектную пора сдавать, и
+        задачи хочется порешать, и в теории получше разобраться, и жизнь не забыть пожить. В такие моменты очень нужна
+        концентрация. Вспомните, откуда вы её черпали.
+      </p>
+      <p class="main__post_text">
+        Место для ваших воспоминаний об окончании третьего спринта.
+      </p>
+      <button class="main__post_button">Like</button>
+    </section>
+
+    <section class="main__post">
+      <h3 class="main__post_title">«Сейчас я здесь»</h3>
+      <div class="main__post_watermark">&lt/HTML&gt</div>
+      <img src="./svg/image.svg" alt="пиксельный дом на колесах в пастельных цветах"
+        class="main__post_image main__post_image-multiple" />
+      <p class="main__post_text">
+        Сейчас вы уже очень много знаете о вёрстке. Но это только начало. Во-первых, впереди ещё много материала про
+        «красотищу». Во-вторых, с окончанием курса учёба не заканчивается. Вёрстка — это целый мир. И этот мир постоянно
+        меняется. Познать его полностью не получится, но это тот случай, когда важен сам процесс познания. Ведь часто
+        путь — и есть результат.
+      </p>
+      <p class="main__post_text">
+        Место, чтобы остановиться, подумать и написать, что вы чувствуете в этой точке пути.
+      </p>
+      <button class="main__post_button">Like</button>
+    </section>
+
+    <main__button-save>Сохранить на память</main__button-save>
+  </main>
+  <script src="./scripts/like.js"></script>
+</body>
+
 </html>
+
+
+
+    <!-- <svg width="39" height="39" viewBox="0 0 39 39" fill="currentColor" class="floppy">
+      <use href="svg/floppy.svg#floppy"></use>
+    </svg> -->
