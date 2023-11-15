@@ -27,6 +27,8 @@
     --gradient-color: #000;
     --bottom-gradient-color: #004306;
     --top-gradient-color: #007f0c ;
+    --main-font-weight: 465;
+    --title-font-weight: 785;
   } 
 }
 
@@ -37,5 +39,7 @@
     --gradient-color: #d3d3d3;
     --bottom-gradient-color: #1a1a1a;
     --top-gradient-color: #e7e7e7;
+    --main-font-weight: 400;
+    --title-font-weight: 700;
   }
 }

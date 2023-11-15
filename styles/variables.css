@@ -4,30 +4,15 @@
   --accent-font: 'PressStart2P', serif;
   --main-font-weight: 400;
   --title-font-weight: 700;
-  --page-background-image: repeating-linear-gradient(
-    to right,
-    var(--gradient-color) 2px,
-    transparent 2px 4px,
-    var(--gradient-color) 4px 6px,
-    transparent 8px
-  ),
-  repeating-linear-gradient(
-    to bottom,
-    var(--gradient-color) 2px,
-    transparent 2px 4px,
-    var(--gradient-color) 4px 6px,
-    transparent 8px
-  ),
-  linear-gradient(
-    to bottom,
-    var(--top-gradient-color),
-    var(--bottom-gradient-color)
-  );
+  --page-background-image: 
+  repeating-linear-gradient(90deg, var(--gradient-color) 0 2px, rgb(0 0 0 / 0) 2px 4px),
+  repeating-linear-gradient(180deg, var(--gradient-color) 0 2px, rgb(0 0 0 / 0) 2px 4px),
+  linear-gradient(180deg, var(--top-gradient-color) 0%, var(--bottom-gradient-color) 100%);
   --sparks-color: #FF0000;
   --contour-color: #000000;
   --core-color: #ff0000;
   --heart-color: #ff0000;
-}
+} 
 
 :root.theme-dark {
   --bg-color: #000000;
@@ -36,6 +21,8 @@
   --bottom-gradient-color: #004306;
   --top-gradient-color: #007f0c ;
   --button-bg-color: #00cc14;
+  --main-font-weight: 400;
+  --title-font-weight: 700;
 }
 
 :root.theme-light {
@@ -45,4 +32,6 @@
   --bottom-gradient-color: #1a1a1a;
   --top-gradient-color: #e7e7e7;
   --button-bg-color: #fff;
+  --main-font-weight: 465;
+  --title-font-weight: 785;
 }
